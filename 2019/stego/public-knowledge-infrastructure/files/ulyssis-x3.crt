@@ -1,0 +1,57 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            ca:ab:09:60:af:a7:92:3f
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=BE, O=ULYSSIS, OU=IT, CN=ULYSSIS root CA
+        Validity
+            Not Before: May  2 11:54:59 2019 GMT
+            Not After : Sep 13 11:54:59 2020 GMT
+        Subject: C=BE, O=ULYSSIS, OU=IT, CN=ULYSSIS intermediate CA X3
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:b8:90:0c:45:c5:33:58:37:22:16:0b:0d:5f:92:
+                    d2:f2:f1:49:20:3c:a1:ab:9b:53:61:89:d1:0f:9b:
+                    b2:51:6d:46:32:d1:c1:79:91:25:e6:14:b9:82:f3:
+                    1d:0c:1a:c5:5f:1d:19:db:ed:12:1d:9d:91:e0:a8:
+                    d4:80:fd:a3:f1:f4:67:ea:a1:34:2e:cd:4c:77:0f:
+                    5d:39:59:24:4c:7a:3e:c1:ef:27:3b:09:22:4f:90:
+                    37:8b:1a:03:c5:b8:1a:42:02:f9:68:ea:4d:f8:ff:
+                    0d:56:2b:66:ae:80:ce:07:7e:2d:6e:ce:37:85:ff:
+                    c9:08:64:4d:aa:33:2a:e9:95
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                CD:05:B4:FB:91:DE:5D:DD:05:BA:EE:EC:0A:15:62:8F:6E:BC:EA:7D
+            X509v3 Authority Key Identifier: 
+                keyid:10:38:34:BD:1A:BC:91:12:86:75:80:26:48:07:3A:4D:C1:80:E4:35
+
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+         82:9d:65:7f:99:10:68:dd:a2:06:74:5c:97:d5:3c:00:5a:f8:
+         5b:84:83:e1:fb:51:e3:00:89:d0:d0:15:32:10:52:0e:13:19:
+         5f:a8:63:29:64:fe:cf:2b:ae:c8:54:d1:0e:6f:f6:3f:ba:35:
+         0a:fb:19:fe:84:49:f8:b5:6b:56:af:28:8b:64:29:1d:44:81:
+         2e:1f:7a:06:cb:c8:2e:46:d4:f1:83:06:2a:be:f4:04:d7:bf:
+         8d:07:06:f4:ec:42:2a:23:f2:e7:c2:3e:0b:13:32:12:52:38:
+         30:d8:18:30:c9:59:4a:82:a9:12:ee:64:61:3c:75:72:7b:b9:
+         29:31
+-----BEGIN CERTIFICATE-----
+MIICaDCCAdGgAwIBAgIJAMqrCWCvp5I/MA0GCSqGSIb3DQEBCwUAMEYxCzAJBgNV
+BAYTAkJFMRAwDgYDVQQKDAdVTFlTU0lTMQswCQYDVQQLDAJJVDEYMBYGA1UEAwwP
+VUxZU1NJUyByb290IENBMB4XDTE5MDUwMjExNTQ1OVoXDTIwMDkxMzExNTQ1OVow
+UTELMAkGA1UEBhMCQkUxEDAOBgNVBAoMB1VMWVNTSVMxCzAJBgNVBAsMAklUMSMw
+IQYDVQQDDBpVTFlTU0lTIGludGVybWVkaWF0ZSBDQSBYMzCBnzANBgkqhkiG9w0B
+AQEFAAOBjQAwgYkCgYEAuJAMRcUzWDciFgsNX5LS8vFJIDyhq5tTYYnRD5uyUW1G
+MtHBeZEl5hS5gvMdDBrFXx0Z2+0SHZ2R4KjUgP2j8fRn6qE0Ls1Mdw9dOVkkTHo+
+we8nOwkiT5A3ixoDxbgaQgL5aOpN+P8NVitmroDOB34tbs43hf/JCGRNqjMq6ZUC
+AwEAAaNTMFEwHQYDVR0OBBYEFM0FtPuR3l3dBbru7AoVYo9uvOp9MB8GA1UdIwQY
+MBaAFBA4NL0avJEShnWAJkgHOk3BgOQ1MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZI
+hvcNAQELBQADgYEAgp1lf5kQaN2iBnRcl9U8AFr4W4SD4ftR4wCJ0NAVMhBSDhMZ
+X6hjKWT+zyuuyFTRDm/2P7o1CvsZ/oRJ+LVrVq8oi2QpHUSBLh96BsvILkbU8YMG
+Kr70BNe/jQcG9OxCKiPy58I+CxMyElI4MNgYMMlZSoKpEu5kYTx1cnu5KTE=
+-----END CERTIFICATE-----
