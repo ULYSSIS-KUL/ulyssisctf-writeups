@@ -1,1 +1,1 @@
-This repository contains a write-up of some of the challenges used in ULYSSIS CTF 2018.
+This repository contains write-ups for some of the challenges used in past editions of the ULYSSIS CTF.
