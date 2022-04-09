@@ -1,0 +1,3 @@
+# chatty3
+
+This is the third version of the notorious Chatty Bot. It's a chat bot able to respond to users based on recognising certain keywords. Its response are then decoded. The past 2 years ascii numbers and rot13 were used, this year a Caesar cipher with a shift of 3 was used. This can be easily deduced by the fact that there's very often capital L in the responses (shift 3 of I) and all punctation remains. One of the responses to hello or hi can also be googled straight up. If you ask for the flag, chatty says you need to say the password pussycat. When replying with "pussycat", the bot will respond with the flag. As a bit of extra difficulty, numbers are also shifted (meaning 0 is 3 and 9 is 2).
