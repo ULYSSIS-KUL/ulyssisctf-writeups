@@ -1,0 +1,3 @@
+# yardwork-thomas-and-robbe writeup
+
+In this challenge, we get a folder for a yardwork company ran by Thomas and Robbe. We can clearly see that these are real professionals when it comes to yardwork, but unfortunately not so much when they need to promote their company. We only get a hint of where to find them at the end of the conclusion! However, it is also at the end of this conclusion that we will find the solution to this challenge. When viewing this document on a proper PDF viewer, we can see that the word `website` has been linkified. When we hover over this word, we get the flag for free! 

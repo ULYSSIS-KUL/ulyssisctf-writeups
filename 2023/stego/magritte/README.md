@@ -1,0 +1,6 @@
+# magritte writeup
+This challenge presents what looks like a familiar QR code: three big squares in three of the corners, and a bunch of black and white data between them. Sadly, no matter what we try, the QR code won't scan. And data in QR codes is [https://en.wikipedia.org/wiki/QR_code#Encoding](rather heavily encoded), so directly reading it out seems impractical.
+
+However, the QR code refusing to scan is a little suspicious, and it's not the only thing that seems a little off. Other than the very smallest, QR codes have a fourth "alignment" marker near the bottom right corners, as well as a straight dotted line connecting the three big markers. Both of these easily recognizable features are suspiciously missing here. Furthermore, this QR code is not even a square, it's a 31x32 rectangle! Perhaps not everything is as it seems? Perhaps... this is not a QR code?
+
+With that in mind, we notice something strange: every 8th pixel is white. And indeed, if one interprets the data between the markers as binary digits encoding 8-bit ASCII characters, you will recover a string which includes the flag! Every 8th pixel is white because the string only includes basic ASCII, which is a *7*-bit code.

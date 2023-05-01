@@ -1,0 +1,3 @@
+# third-temple writeup
+In this challenge we get a file with a .hc extension. A quick internet search reveals this is an extension used by veracrypt, an open source encryption tool. The flavortext seems to contain a password. When we open the file using veracrypt with the password, we find a file that is not a flag.
+Some further digging on veracrypt reveals that it also has the ability to make "hidden files", these are nested encrypted files, that allow for 2 passwords that reveal different contents. If we now try to open the encrypted volume again using the string we found earlier, now we find a file containing the flag we were looking for.

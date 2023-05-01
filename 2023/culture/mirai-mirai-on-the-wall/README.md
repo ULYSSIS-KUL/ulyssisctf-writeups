@@ -1,0 +1,3 @@
+# mirai-mirai-on-the-wall
+
+This challenge displays a simple login interface for a Huawei HG532 router. This router is notorious for its security issues, causing it to play a large part in the Mirai botnet and the problems it caused worldwide. The low score indicates it's a pretty simple challenge, meaning you're not expected to actually use the SOAP exploits in this router, but rather something simple. In this case the default logins, common on many modems and routers. If you log in with admin as the username and the password, which you can easily find online for this model, you get a (fake) Mirai infection message that includes some debugging information including the flag.

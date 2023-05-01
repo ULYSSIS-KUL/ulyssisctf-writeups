@@ -1,0 +1,3 @@
+# hacker-elite-2003
+
+This challenge is a culture challenge that tries to acquaint people with the 2003 PC game "Uplink" by Introversion. It's well-known as an attempt to translate cyberpunk movie hacking into a game. As a culture challenge, it simply requires some basic internet searching. In this case, you literally need the username and password for the tutorial server of the game. By searching online for something like "Uplink test machine password", and digging through the basic tutorials and forums, you can find several websites that list the username (admin) and password (rosebud). Once you've entered those log in details, the flag is presented to you.
