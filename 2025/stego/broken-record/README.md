@@ -1,0 +1,4 @@
+# broken-record writeup
+Intially we are given an mp3 file. Upon opening it and listening, we can tell something is up with the file. In the flavortext, we are told that the original creator had no special audio editing software. On top of that, we know the flag is hidden in the file, since it's a stego challenge. This should thus prevent anyone from attempting to install software to check if the flag is hidden in the waveform or others.
+
+This simmers down to either being an issue in the file itself or in the header. But an issue in the header would render the song uplayable. The only option left is for the flag to be hidden in the mp3 itself and in doing so, corrupting the music. After opening the mp3 file in a text-editor, such as using nano in the terminal, looking for 'FLG' will show you the flag hidden in the file.

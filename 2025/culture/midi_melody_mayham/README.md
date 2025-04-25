@@ -1,0 +1,2 @@
+# midi_melody_mayham writeup
+This challenge can be solved by looking at the flavortext. The homework is from Daniel Temkin which after some googling reveals that he makes esolangs. One of these is made to use midi files as program code named Velato. After some more searching we can find a online compiler for this esolang: https://velato-online.azurewebsites.net/upload . This doesnt directly give the flag because the flag is not in the first midi track. Removing the other tracks and running it again gives us the flag

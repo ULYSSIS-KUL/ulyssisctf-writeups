@@ -1,0 +1,4 @@
+# wheels-and-buses writeup
+This challenge presents a video of a bus stop with a flickering light. Flickering light and the title wheels (dots) and buses (dashes) can remind of [morse code](https://en.wikipedia.org/wiki/Morse_code), sometimes called dots and dashes. A translation table for International morse code can be found at [https://morsecode.world/international/morse2.html](https://morsecode.world/international/morse2.html), we see that this contains brackets ( ) but no curly braces { }, this explains the format of the flag.
+
+Decoding this by hand would take a lot of patience however. Luckily enough, we are not the first ones encountering this issue, and many tools can be found online. Though many are outdated, [https://github.com/Razer2015/MorseDecoder](this one) works like a charm (on my machine through wine), though it does require slowing the video down before decoding.
